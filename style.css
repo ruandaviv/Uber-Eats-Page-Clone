@@ -1,0 +1,106 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+/*NAVBAR*/
+.navbar {
+  display: flex;;
+  justify-content: center;
+}
+
+.navbar-container {
+  width: 69.2%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 0;
+}
+
+.light-text-logo {
+  font-weight: 500;
+}
+
+.navbar-container ul {
+  display: flex;
+  list-style: none;
+
+}
+
+.navbar-container ul li {
+  padding: 0 20px;
+  
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.grocery-padded {
+  width: 310px;
+  height: auto;
+  margin-top: 60px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+aside {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main h2 {
+  margin-top: 20px;
+}
+
+main p {
+  margin-top: 20px;
+}
+
+.login {
+  border-radius: 5px;
+  color: black;
+}
+
+.cadastro {
+  border-radius: 20px;
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+
+.btn-more {
+  color: white;
+  background-color: black;
+  border-radius: 7px;
+  padding: 20px;
+  margin-top: 40px;
+  font-weight: 500;
+}
+
+.btn-more:hover {
+  background-color: rgb(70, 70, 70);
+}
+
+.suport {
+  color: grey;
+  text-decoration: underline;
+}
+
